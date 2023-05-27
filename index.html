@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="travel.css">
+  <script src="https://kit.fontawesome.com/ad2f1382aa.js" crossorigin="anonymous"></script>
   <title>Advance parallax website</title>
 </head>
 <body>
@@ -34,7 +35,7 @@
 
   <section class="carousel">
 
-    <div class="carousel_button carousel_button--left"><img src="icons/icons8-left-30.png" alt="Left-button"></div>
+    <div class="carousel_button carousel_button--left is--hidden"><img src="icons/icons8-left-30.png" alt="Left-button"></div>
 
     <div class="carousel_track-container">
       <ul class="carousel-track">
@@ -72,6 +73,24 @@
       <button class="carousel-indicator current-slide"></button>
       <button class="carousel-indicator"></button>
       <button class="carousel-indicator"></button>
+    </div>
+
+  </section>
+
+  <section class="destination-search">
+
+    <h2>Search Destinations</h2>
+    <div class="search-box">
+      <div class="row">
+        <input type="text" id="input--box" placeholder="Search for your destination" autocomplete="off">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="result-box">
+        <ul>
+          <li>Javascript</li>
+          <li>Web development</li>
+        </ul>
+      </div>
     </div>
 
   </section>
