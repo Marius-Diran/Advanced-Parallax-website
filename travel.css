@@ -254,12 +254,14 @@ nav{
 
 .result-box{
   margin: 0 auto;
+  max-height: 25vh;
+  overflow-y: scroll;
 }
 
 .result-box ul{
   width: 100%;
   margin: 0 auto;
-  border-top: 1px solid hsl(0, 0%, 42%);
+  border-top: 1px solid hsl(0, 0%, 60%);
 }
 
 .result-box ul li{
