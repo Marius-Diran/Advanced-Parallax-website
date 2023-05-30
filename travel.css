@@ -205,6 +205,7 @@ nav{
 
 .destination-search{
   background: hsl(140, 100%, 30%);
+  height: 25vh;
   margin: 8vh 0 0 0;
 }
 
@@ -274,4 +275,24 @@ nav{
 
 .result-box ul li:hover{
   background: hsl(213, 100%, 96%);
+}
+
+.icon-section{
+  background: hsl(0, 0%, 88%);
+}
+
+.icon-flex{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.location--icon{
+  /* border: 1px solid black; */
+  width: 30%;
+  background: hsl(0, 0%, 100%);
+}
+
+.location--icon .fa-location-dot{
+  font-size: 2rem;
+  margin: 2vh auto;
 }
